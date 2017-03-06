@@ -1,0 +1,8 @@
+application:
+    name: SampleHelloWorld
+    namespace: _
+    version: 0.0.1
+    package:
+        name: helloworld
+        actions:
+            helloworld:
