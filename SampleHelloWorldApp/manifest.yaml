@@ -1,0 +1,13 @@
+package:
+    name: helloworld
+    version: 1.0
+    license: Apache-2.0
+    actions:
+        helloworld:
+            version: 2.0
+            location: src/helloworld.js
+            runtime: nodejs:6
+            outputs:
+                payload:
+                    type: string
+                    description: a simple greeting message, Hello World!
