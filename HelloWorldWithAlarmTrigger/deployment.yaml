@@ -1,0 +1,15 @@
+application:
+    name: HelloWorldEvery10Seconds
+    namespace: _
+    package:
+        name: helloworld
+        actions:
+            helloworld:
+                inputs:
+                    name: Amy
+                    place: Paris
+        triggers:
+            Every65Seconds:
+                inputs:
+                    cron: "*/10 * * * * *"
+                    trigger_payload: "{\"name\":\"Mark\", \"place\":\"Spain\"}"
